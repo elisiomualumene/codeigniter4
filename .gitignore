@@ -1,0 +1,42 @@
+# Composer dependencies
+/vendor/
+
+# CodeIgniter 4 application environment configuration
+/.env
+
+# Application cache and logs
+/app/Cache/
+/app/Logs/
+
+# System cache and logs
+/system/Cache/
+/system/Logs/
+
+# System generated files
+/system/Database/Migrations/*.php
+
+# User upload files (if applicable)
+public/uploads/
+
+# Node.js dependencies (if using Node.js for asset management)
+node_modules/
+
+# IDE and editor configuration files
+/.idea/
+/.vscode/
+/*.sublime-project
+/*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# PHPUnit configuration
+/phpunit.xml
+/phpunit.xml.dist
+
+# CodeIgniter 4 testing directory (if you are using a custom testing directory)
+tests/
+
+# Composer's lock file (if you want to ignore the lock file)
+/composer.lock
